@@ -2,6 +2,8 @@ This code will take in a string and output a sorted histogram of its bigrams as 
 
 The overall run complexity is `O(n log n)` in the average case, where `n` is the length of the string. The worst case is `O(n^2)`, which occurs when all the bigrams hash to the same value but are unique, though this is exceedingly rare.
 
+Program.cs is setup to run the histogram creation on the full text of Moby Dick, based on your environment you may need to alter the pathing.
+
 ### Assumptions Made:
 Since this is an offline assessment, I had to make some assumptions to determine the best way to code my submission:
 
